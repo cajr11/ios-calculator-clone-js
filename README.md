@@ -4,4 +4,4 @@ Here is a web app I built using vanilla JavaScript. It is a fully functional Iph
 
 Feel free to test it out and leave feedback.
 
-![](iphone-calc).gif
+![](iphone-calc.gif)
