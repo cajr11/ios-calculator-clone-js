@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/style.css" />
+    <script defer src="/calculator.js"></script>
+    <title>Calculator App</title>
+  </head>
+  <body>
+    <div class="calc-container">
+      <div class="calc-display">0</div>
+      <div class="btns-general">
+        <button class="special" id="btn-clear">AC</button>
+        <button class="special" id="btn-abs">+/-</button>
+        <button class="special" id="btn-percentage">%</button>
+        <button class="btn--symbols" id="btn-divide" data-operation="divide">
+          ÷
+        </button>
+        <button class="btn" id="btn-7">7</button>
+        <button class="btn" id="btn-8">8</button>
+        <button class="btn" id="btn-9">9</button>
+        <button
+          class="btn--symbols"
+          id="btn-multiply"
+          data-operation="multiply"
+        >
+          &times;
+        </button>
+        <button class="btn" id="btn-4">4</button>
+        <button class="btn" id="btn-5">5</button>
+        <button class="btn" id="btn-6">6</button>
+        <button class="btn--symbols" id="btn-minus" data-operation="subtract">
+          -
+        </button>
+        <button class="btn" id="btn-1">1</button>
+        <button class="btn" id="btn-2">2</button>
+        <button class="btn" id="btn-3">3</button>
+        <button class="btn--symbols" id="btn-plus" data-operation="add">
+          +
+        </button>
+        <button class="btn" id="btn-0">0</button>
+        <button class="extra" id="btn-point">.</button>
+        <button class="answer-op" id="btn-equals" data-result="equals">
+          =
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

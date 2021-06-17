@@ -1,0 +1,15 @@
+{
+  "name": "ios-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "default": "calculator.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
