@@ -145,10 +145,7 @@ equalsBtn.addEventListener("click", function (event) {
     display.textContent = displayNum;
   }
   if (operationSymbol === "subtract") {
-    displayNum = String(subtractNums(Parsefloat(initialNum), finalNum)).slice(
-      0,
-      9
-    );
+    displayNum = String(subtractNums(initialNum, finalNum)).slice(0, 9);
     display.textContent = displayNum;
   }
   if (operationSymbol === "multiply") {
