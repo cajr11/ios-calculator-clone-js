@@ -20,7 +20,7 @@ const addNums = function (num1, num2) {
   return parseFloat(num1) + parseFloat(num2);
 };
 
-const subrtactNums = function (num1, num2) {
+const subtractNums = function (num1, num2) {
   return parseFloat(num1) - parseFloat(num2);
 };
 
